@@ -35,7 +35,7 @@ aside:last-of-type {
     background-color: #315002;
 }
 
-/* As the screen gets wider, the background images stretches to fit and the lower sized image does look good on the screen. We can use media queries to swap out the background image for a larger, higher quality image. */
+/* As the screen gets wider, the background image stretches to fit and the lower sized image doesn't look good on the screen. We can use media queries to swap out the background image for a larger, higher quality image. */
 @media only screen and (min-width: 950px) {
     header {
         height: 500px;
